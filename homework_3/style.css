@@ -1,0 +1,277 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family:  "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+#container #navbar {
+    margin-bottom: 30px;
+}
+
+
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 10px;
+    height: 60px;
+    width: 100%;
+    background-color: coral;
+    color: cornsilk;
+    flex-direction: row;
+}
+
+#navBar span {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#navBar .logo  {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 40px;
+    margin-right: 10px; 
+}
+
+
+.logoContainer {
+    width:250px ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+  
+#navBar .navLinks {
+    width: 800px;   
+}
+
+.navLinks ul  {
+    list-style: none;       
+}
+
+.navLinks li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.navLinks li a {   
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+.navLinks li a:hover {
+    color: lightgreen;
+}
+
+
+
+ #container-2 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white; 
+}
+
+
+.textContainer h1 {
+    margin-bottom: 25px;
+}
+
+#container-2 .textContainer {
+    width: 250px;
+    height: 324px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#container-2 .imageContainer {
+    display: flex;
+    width: 40%;
+    height: 324px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#container #container-2 {
+    background-color:rgb(53, 211, 203);
+    width: 80%;    
+    margin-top: 20px;
+}
+
+.strelkaL, .strelkaR  {
+    display: flex;
+    width: 40px;
+    height: 40px;
+     font-weight: bolder;
+    font-size: 20px; 
+    background-color: coral;
+    align-items: center;
+    justify-content: center;
+}
+
+.strelkaL {
+    transform: translate(-45px, 0px);
+}
+
+.strelkaR {
+    transform: translate(45px, 0px);
+}
+
+
+#extraContainer {
+    width: 80%;
+    height: 36px;
+    background-color: rgb(232,232,232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#extraContainer div {
+    height: 7px;
+    width: 70px;
+    margin-left: 7px;
+    background-color: rgb(200,200,200);
+}
+
+
+#container-3 {
+    background-color: rgb(232,232,232);
+    width: 100%;
+    height: 350px;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;   
+}
+
+#container-3 .aquariumGlass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-3 h3 {
+    text-align: center;
+}
+
+#container-3 p {
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#container-3 > .title-1  {
+    background-color: white;
+    width:210px;
+    height:240px;
+    box-shadow: 0px 4px 5px rgb(216,216,216);
+    
+}
+
+#container-3 h3{
+    color: rgb(53, 211, 203);
+    text-transform: uppercase;
+}
+
+.title-1 .glassContainer {
+    height: 130px;
+    width: 210px;
+}
+
+ 
+  
+ .button-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+ }
+    
+ .title-1 button {
+    background-color: rgb(53, 211, 203);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+    
+
+
+
+#container #container-4 {
+    width: 100%;
+    height: 80px;
+    background-color: coral;
+    color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-right: 110px;
+    padding-left: 110px;    
+}
+
+#container-4 .telefon {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-end;
+}
+
+#container-4 .navLinks {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    align-items: center;
+}
+
+#container-4 .fb_icons {
+    display: flex;
+    flex:1;
+    justify-content: space-around;
+    
+}
+
+.fa {
+    display: flex;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+
+.fa-google, .fa-facebook, .fa-twitter {
+    color: coral;
+    background-color: white;
+   }
+
