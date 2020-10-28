@@ -1,0 +1,55 @@
+.kvadrati {
+    height: 800px;
+    width: 1000px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.kvadrat-1 {
+    height: 350px;
+    width: 500px;
+    background-color: lightsteelblue;
+    position: absolute;
+    z-index: 5;
+}
+
+.kvadrat-2 {
+    height: 350px;
+    width: 500px;
+    background-color: blue;
+    position: absolute;
+    top:40px;
+    left: 40px;
+    z-index: 4;
+}
+
+.kvadrat-3 {
+    height: 350px;
+    width: 500px;
+    background-color: rgb(255, 26, 140);
+    position: absolute;
+    top:80px;
+    left: 80px;
+    z-index: 3;
+}
+
+.kvadrat-4 {
+    height: 350px;
+    width: 500px;
+    background-color: rgb(204, 0, 0);
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    z-index: 2;
+}
+
+.kvadrat-5 {
+    height: 350px;
+    width: 500px;
+    background-color: rgb(255, 102, 26);
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 1;
+}
