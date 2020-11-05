@@ -1,0 +1,16 @@
+.memberDescription {
+    margin-bottom: 30px;
+}
+
+
+.content-box, .formContainer {
+    background-color: rgb(230, 230, 230);
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.formContainer {
+    margin-bottom: 40px;
+}
