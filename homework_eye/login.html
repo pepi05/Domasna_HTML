@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+       <div class="username">
+            <input type="text" placeholder="Username" id="username"> 
+        </div>
+        <div class="password">
+            <input type="password" placeholder="Password" id="password">
+            <span>
+                <i class="fa fa-eye" aria-hidden="true" id="eye"
+                onclick="showPw()"></i>
+            </span>
+        </div>
+    </div>
+    
+<script>
+    var state= false;
+    function showPw(){
+        if(state) {
+            document.getElementById("password").setAttribute("type","password");
+            state=false;
+        }
+        else {
+            document.getElementById("password").setAttribute("type","text");
+            state=true;
+        }
+    }
+</script>
+
+</body>
+</html>
